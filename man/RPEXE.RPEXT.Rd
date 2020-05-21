@@ -3,7 +3,6 @@
 \docType{package}
 \name{RPEXE.RPEXT}
 \alias{RPEXE.RPEXT}
-\alias{RPEXE.RPEXT-package}
 \title{Reduced Piecewise Exponential Estimate/Test Software}
 \description{
 This reduced piecewise exponential survival software implements the likelihood ratio test 

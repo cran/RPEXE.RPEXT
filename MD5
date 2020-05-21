@@ -1,5 +1,6 @@
-1611f4c27e8e7c6bcc5f2cf02aaeb0cf *DESCRIPTION
+80b3cb0762dbc5b16313f4c98d67ece0 *DESCRIPTION
 2cf162fd56439a12e065709b5486ca43 *NAMESPACE
+fe495d807276d7d643a0da0c562b9327 *NEWS.md
 1cb4beba883e19b24072e3dacee2a80d *R/RPEXE.RPEXT.R
 84ab11cf146b15e034d04b2fd94042b8 *R/RPEXEv1_2.R
 0053671bd54bcb48d63c52843c171dd8 *R/bisec.R
@@ -18,9 +19,10 @@ f4042ead1e93dcc1a85261e2f6885b6f *R/loopcuts_umbrella.R
 9cddfa15e888b2f68e0f32663366ba43 *R/pava_dfr.R
 ccf3f72412413129a12813cedc4e0f77 *R/pava_ifr.R
 4259971071d7b76d1386efd553ea2774 *R/pexeest.R
-8c6c550a712b69a479710762f285a0f5 *R/totaltest.R
+20392a83cfa83eb27e858ea990630b92 *R/totaltest.R
 67eb795728ddc5c13ddb39e6d808352a *R/umbrella.R
-084177b5ec6f01a51f18d32a7b91fd0e *build/vignette.rds
+a8d3a00850659661fc95db24549f97d7 *README.md
+741ff196e7b69e4b9e24a1729f6e38fd *build/vignette.rds
 99706e3a3318d2aebf15b3013e1c7860 *data/data2.rdata
 a70340ef232d92e33fd47330e2ccfdf4 *data/df.rdata
 2be00feb4690a41fc2384603b5205b5b *data/loopcut_onestep_data.rdata
@@ -35,10 +37,10 @@ ba136273f1c0ec664674ecf0b45d3288 *data/pava_dfrd.rdata
 620ab09691e341708bc9057338f09875 *demo/JAMABreast_example.R
 fcfb5ff7b1edf273cf9e2b34c8cd0e20 *demo/RPEXE_fitting.R
 9789e2685a720829f91600383f5dc874 *demo/simple_example.R
-3389eef354c44fd06d0bfff77c19cc25 *inst/doc/RPEXE.RPEXT.R
+cd4c515dc6617f770ab21a9ec741aacd *inst/doc/RPEXE.RPEXT.R
 c8a81355b0754445103b39bc95739c71 *inst/doc/RPEXE.RPEXT.Rmd
-46ded0a1045442fd974d0fc0d01c8559 *inst/doc/RPEXE.RPEXT.html
-338ff4f70efb95da04a2a6e4499f9184 *man/RPEXE.RPEXT.Rd
+9e92c06d9d41f5dc40e0f131fd1d63cb *inst/doc/RPEXE.RPEXT.html
+1be3ff912c387c3a96a938ae67277e3b *man/RPEXE.RPEXT.Rd
 f2f69c07ab5576c64714640a43e69df1 *man/RPEXEv1_2.Rd
 32592b066c6480fe1116ee96c3ccd9a9 *man/bisec.Rd
 5773c6afea557f2f105dea4bceeb5944 *man/data2.Rd

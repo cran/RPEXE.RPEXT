@@ -1,4 +1,4 @@
-## ------------------------------------------------------------------------
+## -----------------------------------------------------------------------------
 library(RPEXE.RPEXT)
 data(data2)
 times = data2[,1]
@@ -12,29 +12,29 @@ group = group[-ID_nan]
 armsA_ID = which(group == 1)
 armsB_ID = which(group == 2)
 
-## ------------------------------------------------------------------------
+## -----------------------------------------------------------------------------
 # figure(1): Kaplan Meier curve of Arm A without indicating censored points 
 km(times[armsA_ID], censor[armsA_ID], 0)
 
-## ------------------------------------------------------------------------
+## -----------------------------------------------------------------------------
 # figure(2): Kaplan Meier curve of armA with censored points indicated
 km_red(times[armsA_ID], censor[armsA_ID], 1)
 
-## ------------------------------------------------------------------------
+## -----------------------------------------------------------------------------
 # figure(3): Kaplan Meier curve of armB without indicating censored points 
 km(times[armsB_ID], censor[armsB_ID], 0)
 
-## ------------------------------------------------------------------------
+## -----------------------------------------------------------------------------
 # figure(4): Kaplan Meier curve of Arm B with censored points indicated
 km_red(times[armsB_ID], censor[armsB_ID], 0)
 
-## ------------------------------------------------------------------------
+## -----------------------------------------------------------------------------
 # figure(5) : Combined plot of both armA and armB 
 x1 = cbind(times[armsA_ID], censor[armsA_ID])
 x2 = cbind(times[armsB_ID], censor[armsB_ID])
 km_combine(x1,x2)
 
-## ------------------------------------------------------------------------
+## -----------------------------------------------------------------------------
 # Fit the rpexe with monotonic order restriction;
 pexeoutA     =  RPEXEv1_2(times[armsA_ID],censor[armsA_ID], monotone = 1,criticalp = 0.05)
 
@@ -43,7 +43,7 @@ pexeoutB     =  RPEXEv1_2(times[armsB_ID],censor[armsB_ID],monotone = 1,critical
 # combined
 pexeout = RPEXEv1_2(times,censor,monotone = 1,criticalp = 0.05)
 
-## ------------------------------------------------------------------------
+## -----------------------------------------------------------------------------
 # Calculate the ttot and n from a), 0-2.777, b), 2.777-8.959, c), 8,959-end;
 
 returnvA=totaltest(times[armsA_ID],censor[armsA_ID]) 
@@ -106,7 +106,7 @@ for (i in 1:length(time_dieB))
   }
 }
 
-## ------------------------------------------------------------------------
+## -----------------------------------------------------------------------------
 # Test the two side hypothesis;
 
 # Two-sided test
